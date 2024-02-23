@@ -107,3 +107,26 @@ this is some text content
 ## Image
 
 ![alt text](image.png)
+
+---
+
+## Headers and Quotes
+
+'# H1'
+'## H2'
+'### H3'
+'#### H4 '
+
+adding "# ' before a text tags it as a heading
+
+> this is a Quote all you nedd to do is to add '> ' at the beginning of the sentence
+
+---
+
+## code
+
+```
+this is a code snipper
+```
+
+just add 3 backticks on top and below of the code
