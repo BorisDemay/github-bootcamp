@@ -268,3 +268,7 @@ By leveraging git fragments, you can efficiently reference commits without the n
 ---
 
 ## How to fix the last commit message
+
+---
+
+## How to rebase
