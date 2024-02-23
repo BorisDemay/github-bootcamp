@@ -77,3 +77,11 @@ git branch --delete <branchname> // gbd <branchname>
 ```
 git push // gp
 ```
+
+---
+
+## Pulling changes from remote
+
+```
+git pull // gl
+```
