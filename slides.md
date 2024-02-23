@@ -80,7 +80,9 @@ git push // gp
 
 ---
 
-## Pulling changes from remote
+## <span style="color:blue">Pulling changes from remote
+
+</span>
 
 ```
 git pull // gl
