@@ -52,3 +52,12 @@ A branch in Git is simply a lightweight movable pointer to one of these commits.
 - Isolate your work: Branches help you switch between versions of your project.
 - Experiment without fear: You can make changes on a branch, without worrying about affecting the main project.
 - Collaborate more effectively: Each collaborator can work on their own branch, without interfering with others.
+
+---
+
+## Merge branch on main
+
+```
+git checkout main
+git merge branch-you-want-to-merge
+```
