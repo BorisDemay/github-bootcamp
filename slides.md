@@ -69,3 +69,11 @@ git merge <branchname>
 ```
 git branch --delete <branchname> // gbd <branchname>
 ```
+
+---
+
+## pushing changes to remote
+
+```
+git push // gp
+```
