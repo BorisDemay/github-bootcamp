@@ -18,5 +18,13 @@ git init
 ## How to review changes
 
 ```
-git diff
+git diff // gd
+```
+
+---
+
+## How to commit changes
+
+```
+git commit -m "commit message" // gcmsg "commit message"
 ```
