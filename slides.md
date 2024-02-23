@@ -129,4 +129,22 @@ adding "# ' before a text tags it as a heading
 this is a code snipper
 ```
 
-just add 3 backticks on top and below of the code
+## just add 3 backticks on top and below of the code
+
+## Extras
+
+### you can do tables :
+
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
+
+### definition lists :
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
