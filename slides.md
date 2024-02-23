@@ -12,3 +12,13 @@
 ```
 git init
 ```
+
+---
+
+## How to review changes
+
+---
+
+```
+git diff
+```
