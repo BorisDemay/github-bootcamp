@@ -129,7 +129,9 @@ adding "# ' before a text tags it as a heading
 this is a code snipper
 ```
 
-## just add 3 backticks on top and below of the code
+just add 3 backticks on top and below of the code
+
+---
 
 ## Extras
 
@@ -139,6 +141,8 @@ this is a code snipper
 | --------- | ----------- |
 | Header    | Title       |
 | Paragraph | Text        |
+
+---
 
 ### definition lists :
 
@@ -154,3 +158,48 @@ Second Term
 ## How to automate issue closing
 
 Automating the closing of issues on GitHub can streamline your project's workflow and help maintain a clean issue tracker. This document outlines how to automate the closing of issues through commit messages and GitHub Actions.
+
+---
+
+## How to apply commit
+
+# Git Command Guide with Oh My Zsh Aliases
+
+Simplify your Git workflow using Oh My Zsh aliases. This concise guide covers key actions: committing, amending, squashing, and cherry-picking.
+
+---
+
+## Committing Changes
+
+- Stage files: `git add <file>` // `ga <file>`
+- Commit changes: `git commit -m "message"` // `gcmsg "message"`
+  gcb feature/cherry-pick
+
+---
+
+## Amending Commits
+
+- Amend the last commit: `git commit --amend -m "New message"` // `gc! "New message"`
+- Include new changes and amend without changing the message: `git commit --amend --no-edit` // `gca!`
+
+---
+
+## Squashing Commits
+
+- Squash commits via interactive rebase (replace `N` with the number of commits): `git rebase -i HEAD~N` // `grb -i HEAD~N`
+
+---
+
+## Cherry-Picking Commits
+
+- Apply changes from specific commits: `git cherry-pick <commit-hash>` // `gcp <commit-hash>`
+
+---
+
+## Best Practices
+
+- Commit small, focused changes.
+- Write clear commit messages.
+- Commit frequently for easier management and troubleshooting.
+
+Leverage Oh My Zsh aliases for a more efficient Git workflow.
