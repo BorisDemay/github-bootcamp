@@ -45,6 +45,8 @@ git branch newBranch // gcb newBranch
 
 A branch in Git is simply a lightweight movable pointer to one of these commits.
 
+---
+
 ### Why Use Branches?
 
 - Isolate your work: Branches help you switch between versions of your project.
