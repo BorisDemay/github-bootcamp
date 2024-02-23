@@ -203,3 +203,64 @@ Simplify your Git workflow using Oh My Zsh aliases. This concise guide covers ke
 - Commit frequently for easier management and troubleshooting.
 
 Leverage Oh My Zsh aliases for a more efficient Git workflow.
+
+---
+
+## How to use git fragments
+
+Git fragments refer to partial SHA-1 hashes that uniquely identify a commit. Using git fragments can streamline operations like `git show`, `git cherry-pick`, `git diff`, and more, by allowing you to reference commits without typing their full SHA-1 hashes.
+
+---
+
+## Understanding Git Fragments
+
+A Git fragment is the beginning portion of a commit's SHA-1 hash. Typically, the first 7 characters are enough to uniquely identify a commit within a repository, but you may use more or fewer characters depending on the size and history depth of your repository.
+
+---
+
+## Finding a Commit's SHA-1 Hash
+
+To find a commit's SHA-1 hash, which you can then shorten to use as a fragment:
+
+1. **List Commits**: Use `git log` to display the commit history.
+
+   - **Command**: `git log`
+   - **Oh My Zsh Alias**: `gl` or `glo` for detailed logs.
+
+---
+
+2. **Copy Part of the SHA-1 Hash**: Identify the commit of interest and copy the first 7 characters of its SHA-1 hash.
+
+---
+
+## Using Git Fragments
+
+Here's how to use git fragments in various Git operations:
+
+---
+
+### Viewing a Commit
+
+- **Command**: `git show <fragment>`
+- **Example**: `git show a1b2c3d`
+
+### Cherry-picking a Commit
+
+- **Command**: `git cherry-pick <fragment>`
+- **Example**: `git cherry-pick a1b2c3d`
+
+---
+
+### Comparing Changes
+
+- **Command**: `git diff <fragment1>..<fragment2>`
+- **Example**: `git diff a1b2c3d..e3f4g5h`
+
+## Best Practices
+
+- **Uniqueness**: Ensure the fragment is unique to avoid ambiguities. Git will alert you if the fragment matches more than one commit.
+- **Length**: While 7 characters are standard, consider using more in a large repository to avoid collisions.
+
+---
+
+By leveraging git fragments, you can efficiently reference commits without the need to type or copy long SHA-1 hashes, streamlining your Git workflow.
