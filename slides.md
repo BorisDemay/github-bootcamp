@@ -272,3 +272,5 @@ By leveraging git fragments, you can efficiently reference commits without the n
 ---
 
 ## How to rebase
+
+git rebase -i <sha>
