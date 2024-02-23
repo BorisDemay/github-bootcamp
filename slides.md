@@ -101,3 +101,9 @@ this is some text content
 - item 1
 - item 2
 - item 3
+
+---
+
+## Image
+
+![alt text](image.png)
