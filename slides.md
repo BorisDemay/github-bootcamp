@@ -264,7 +264,3 @@ Here's how to use git fragments in various Git operations:
 ---
 
 By leveraging git fragments, you can efficiently reference commits without the need to type or copy long SHA-1 hashes, streamlining your Git workflow.
-
----
-
-## This one will be reverted
