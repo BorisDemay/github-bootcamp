@@ -13,3 +13,18 @@ Made with ❤️ and [Spectacle](https://github.com/FormidableLabs/spectacle/).
 To build your presentation for a production deploy, run `yarn build` (or `npm build` or `pnpm build`).
 
 The build artifacts will be placed in the `dist` directory. If you'd like to change this location, edit `output.path` in `webpack.config.js`.
+
+## Write a slide
+
+To write a slide, open the slides.md file.
+
+To create a new slide, don't forget to add --- on top of each slide :
+
+```
+---
+
+## slide 1
+
+---
+## slide 2
+```
