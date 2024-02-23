@@ -28,3 +28,9 @@ git diff // gd
 ```
 git commit -m "commit message" // gcmsg "commit message"
 ```
+
+---
+
+## Create a new branch
+
+git branch newBranch // gcb newBranch
