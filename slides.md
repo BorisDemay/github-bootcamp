@@ -148,3 +148,9 @@ First Term
 Second Term
 : This is one definition of the second term.
 : This is another definition of the second term.
+
+---
+
+## How to automate issue closing
+
+Automating the closing of issues on GitHub can streamline your project's workflow and help maintain a clean issue tracker. This document outlines how to automate the closing of issues through commit messages and GitHub Actions.
